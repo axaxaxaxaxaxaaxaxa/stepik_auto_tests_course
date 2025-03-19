@@ -6,6 +6,9 @@ import time
 import math
 import os
 
+def nothing():
+  print('nothing')
+ 
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
